@@ -6,4 +6,4 @@ requests==2.25.1
 urllib3==1.26.4
 wincertstore==0.2
 python-dotenv==0.17.0
-abstract_python_core==0.1.0
+abstract_python_core==1.0.0

@@ -16,7 +16,7 @@ requirements = required
 
 setup(
     name='abstract_python_email_validation',
-    version='0.1.1',
+    version='1.0.0',
     author='Benjamin Bouchet',
     author_email='libraries@abstractapi.com',
     description="AbstractEmailValidation - Wrapper to quickly start using the powerful AbstractAPI's email validation service in your projects.",
