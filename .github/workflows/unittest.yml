@@ -1,0 +1,25 @@
+name: Unit test
+
+on: [push, pull_request]
+
+jobs:
+  unit_test_ubuntu:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9]
+
+    env:
+      EMAIL_VAL_API_KEY: ${{ secrets.API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies, and python_core module
+        run: |
+          pip3 install -r requirements.txt
+          python setup.py install --user
+
+      - name: Run test
+        run: |
+          python3 -m unittest tests/test_python_email_validation.py
