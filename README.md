@@ -79,10 +79,6 @@ Contributions are always welcome, as they improve the quality of the libraries w
 
 Please provide your changes covered by the appropriate unit tests, and post them in the [pull requests page](https://github.com/abstractapi/python-email-validation/pulls).
 
-## Composer
-
-To work on the source code, you need to install composer on your local computer. At the time of writing, the latest version of composer is v2.0.12. The installation instructions can be found here: https://getcomposer.org/download/.
-
 ## Setup
 
 To install the requirements, run:
