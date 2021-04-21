@@ -1,0 +1,7 @@
+build
+dist
+**/__pycache__
+abstract_python_email_validation.egg-info
+dev_test.py
+.vscode
+*.history
